@@ -17,7 +17,7 @@ function AirDrop() {
 
   return (
     <div className='mb-8'>
-     <h2 className="text-2xl font-normal text-gray-800">Request Testnet Airdrop:</h2>
+     <h2 className="text-1xl font-normal text-white-800">Request Testnet Airdrop:</h2>
       <div className="flex items-center gap-5">
       <Input id="amount" type="text" placeholder="Amount" />
       <Button onClick={requestAirdrop}> Send Airdrop</Button>

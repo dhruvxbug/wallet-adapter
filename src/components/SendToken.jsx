@@ -23,7 +23,7 @@ export function SendToken(){
 
     return (
         <div className="mb-8">
-        <h1 className="text-2xl font-normal text-gray-800 ">Send SOL: </h1>
+        <h1 className="text-1xl font-normal text-white-800 ">Send SOL: </h1>
            <div className="flex items-center gap-5" >
             <Input type="text" id="to" placeholder="public address (to)" />
             <Input type="text" id="amount" placeholder="Amount" />

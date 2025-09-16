@@ -21,9 +21,9 @@ export default function SignMessage(){
 
     return (
         <div className="mb-8">
-        <h1 className="text-1xl font-normal text-white-800 ">Message Signature:</h1>
+        <h1 className="text-1xl font-normal text-black ">Message Signature:</h1>
           <div className="flex items-center gap-5" >
-            <Input type="text" id="message" placeholder="Message" />
+            <Input className="font-normal text-black" type="text" id="message" placeholder="Message" />
             <Button onClick={Sign}> Sign Message </Button>
         </div>
         </div>

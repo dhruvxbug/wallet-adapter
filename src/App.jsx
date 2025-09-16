@@ -45,11 +45,11 @@ const Wallet = () => {
             </div>
             {/* Foreground content with glass card */}
             <div className="relative z-10 w-full flex flex-col items-center text-white justify-center">
-                <div className="glass-card max-w-2xl w-full px-8 py-10 rounded-2xl bg-white/10 backdrop-blur-lg border border-white/30 shadow-xl flex flex-col items-center">
+                <div className="glass-card bg-gradient-to-br from-orange-100 via-yellow-100 to-amber-100 max-w-2xl w-full px-8 py-10 rounded-2xl bg-white/10  border border-white/30 shadow-xl flex flex-col items-center">
                     <ConnectionProvider endpoint={endpoint}>
                         <WalletProvider wallets={wallets} autoConnect>
                             <WalletModalProvider>
-                                <h1 className="text-4xl font-head font-bold text-white mb-8">Simple Wallet Adapter</h1>
+                                <h1 className="text-4xl font-head font-bold text-black mb-8">Simple Wallet Adapter</h1>
                                 <div className='flex items-center gap-4 mb-6'>
                                     <WalletMultiButton />
                                     <WalletDisconnectButton />
@@ -60,8 +60,8 @@ const Wallet = () => {
                                 <SendToken/>
                             </WalletModalProvider>
                             <div className="mt-12">
-                                <h4 className="text-lg text-white">
-                                    Made by <a href="https://x.com/dhruvxbug" className="text-yellow-200 hover:text-yellow-100 underline font-medium">Dhruv</a>
+                                <h4 className="text-lg text-black">
+                                    Made by <a href="https://x.com/dhruvxbug" className="text-black hover:text-yellow-100 underline font-medium">Dhruv</a>
                                 </h4>
                             </div>
                         </WalletProvider>

@@ -15,7 +15,7 @@ export default function ShowBalance(){
     }
     getBalance();
     return (
-        <div className="mb-8">
+        <div className="mb-8 text-black">
           <p className="text-1xl font-normal text-black" > SOL Balance: </p> <div id="balance"> </div>
         </div>
     )
